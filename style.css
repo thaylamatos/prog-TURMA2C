@@ -1,7 +1,12 @@
-*{
+header{
+background-color: #424E61;
+color: white;
+}
+*{  
     margin: 0;
     padding: 0;
 }
+
 .cabeçalho{  
     background-color: #424e61;
     color: white;
@@ -13,10 +18,14 @@
 .cabeçalho_imagem{
     width: 10%;
 }
-.cabeçalho_lista{
+.cabeçalho_lista-item{
     display:inline-block;
     margin: 0 16px;
     font-size:  24px;
+
+}
+.escola-imagem{
+    width: 25%;
 }
   .Sobre_escola{
     background-image: linear-gradient(#424e61, #4ebfe9);
